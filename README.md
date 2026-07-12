@@ -24,3 +24,11 @@
 - Used `field(default_factory=dict)` to give each Graph its own dictionary
 - Connected `Node` and `Edge` models through the Graph
 - Learned the difference between functions and methods
+
+# Day 5 - CLI Testing with sys.argv
+
+- Learned what `sys.argv` is and how it captures terminal input as a list
+- Learned `if __name__ == "__main__"` and why it prevents code from running on import
+- Built a CLI script that reads commands from the terminal
+- Implemented `add-node` and `list-nodes` commands using the Graph model
+- Fixed import paths to use full folder references (`from models.node import Node`)
