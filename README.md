@@ -32,3 +32,8 @@
 - Built a CLI script that reads commands from the terminal
 - Implemented `add-node` and `list-nodes` commands using the Graph model
 - Fixed import paths to use full folder references (`from models.node import Node`)
+- `sys.argv`         → everything you typed in terminal as a list
+- `sys.argv[0]`      → filename
+- `sys.argv[1]`     → your command
+- `sys.argv[2]`      → your first argument
+- `if __name__`      → only run when file is run directly
